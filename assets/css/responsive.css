@@ -1,0 +1,1344 @@
+@media screen and (max-width: 1600px) {
+	.main-content{
+		padding: 100px 0px;
+	}
+}
+@media screen and (max-width: 1440px) {
+	/*********************  Footer CSS Start  *********************/
+	.main-content h1{
+		font-size: 65px;
+	}
+	.search_box{
+		padding: 45px 60px;
+	}
+	.menu_inner li img{
+		margin-right: 10px;
+	}
+	.menu_inner li{
+		margin-right: 30px;
+	}
+	.search_input{
+		margin-right: 30px;
+	}
+	
+	/*********************  Main-Section CSS Start  *********************/	
+	/*********************  Main-Section CSS Start  *********************/	
+	.main-content{
+		padding: 76px 0;
+	}
+	.search_btn{
+		padding: 18.5px 50px;
+	}
+	/*********************  Main-Section CSS End  *********************/	
+	/*********************  Popular-Section CSS Start  *********************/	
+	.popular-section{
+		padding: 80px 0;
+	}
+	.popular-section-inner .popular-contain{
+		padding: 30px 25px 30px 25px;
+	}
+	.sub_title{
+		margin-bottom: 50px;
+	}
+	.popular-section .popular-section-inner, .most_view_section .popular-section-inner{
+		padding: 0px;
+	}
+	.date_box{
+		right: 40px;
+	}
+	/*********************  Popular-Section CSS Start  *********************/	
+	.molten_section{
+		padding: 0px 0px;
+	}
+	.molten_section img{
+		max-width: 80%;
+	}
+	.most_view_section{
+		padding: 80px 0;
+	}
+	/*********************  Footer CSS Start  *********************/
+	.countries{
+		padding: 0 0 0 15px;
+	}
+	.pad{
+		padding: 0 15px 0 0;
+	}
+	.footer-contain {
+	    width: 22.5%;
+	}
+	.countries{
+		width: 16.5%;
+	}
+	.footer-inner-section .footer-new-contain{
+		width: 22.5%;
+	}
+	/*********************  Footer CSS Start  *********************/
+	/*********************  Basketball_Court_Info CSS Start  *********************/	
+	.cage_main_contain{
+		padding: 80px 0;
+	}
+	.cage_title{
+		font-size: 55px;
+	}
+	.cage_contain{
+		margin: 30px 0;
+	}
+	/*********************  cage silder CSS Start  *********************/		
+	.cage_slider{
+		padding: 80px 0;
+	}
+	.cage_slider .player_contain{
+    	margin-top: 50px;
+    }
+    .photo_btn{
+    	padding: 17.5px 40px;
+    }
+	/*********************  cage silder CSS Start  *********************/		    
+	/*********************  Court Comments CSS Start  *********************/	
+	.court_comments_section{
+		padding: 80px 0 100px;
+	}
+	.court_comments_section .photo_btn{
+		margin-bottom: 80px;
+	}
+
+	/*********************  Court Comments CSS End  *********************/
+	/*********************  Basketball_Court_Info CSS End  *********************/	
+
+	/*********************  Local Weather CSS Start  *********************/
+.local_weather_inner_section{
+	padding: 100px 0;
+}
+	/*********************  Local Weather CSS End  *********************/
+	/*********************  Basketball near cage CSS Start  *********************/
+	.basketball_near_cage_section{
+		padding: 80px 0;
+	}
+	.tissot_img{
+		margin-top: 80px;
+	}
+	/*********************  Basketball near cage CSS End  *********************/
+	/*********************  Popular Section CSS Start  ********************/
+	.outdoor_page .popular-section{
+		padding: 80px 0;
+	}
+	.molten_banner_img {
+	    max-width: 80%;
+	}
+	/*********************  Popular Section CSS End  ********************/
+	.fiba-event-block, .fiba-endorsed-equipment-wrapper {
+		padding-bottom: 80px;
+	}
+}
+@media screen and (max-width: 1360px) {
+	.social_media a{
+		width: 45px;
+		height: 45px;
+		line-height: 45px;
+	}
+	/*********************  Basketball_Court_Info CSS Start  *********************/	
+	.cage_slider{
+		padding: 100px 0 80px;
+	}
+	.cage_slider .owl-nav{
+	    position: relative;
+	    display: flex;
+	    justify-content: flex-end;
+	}
+
+	/*********************  Court Comments CSS Start  *********************/
+	.cage_slider .owl-nav .owl-prev, .cage_slider .owl-nav .owl-next{
+		position: unset;
+		transform: unset;
+	}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    	padding: 17px 23px !important;
+    }
+    
+	/*********************  Court Comments CSS End  *********************/
+	
+	/*********************  Basketball_Court_Info CSS End  *********************/	
+
+}
+@media screen and (max-width: 1280px) {
+	.menu li{
+		margin-right: 25px;
+	}	
+	.social_media a{
+		margin-right: 5px;
+	}
+}
+@media screen and (max-width: 1199px) {
+	/*********************  Main-Section CSS Start  *********************/	
+	.menu_inner{
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		top: 0px;
+		left: -100%;
+		width: 100%;
+		background-color: white;
+		text-align: center;
+		height: 100vh;
+		z-index: 100;
+		align-items: center;
+		justify-content: center;
+		-webkit-transition: all 0.5s ease 0s;
+	    -moz-transition: all 0.5s ease 0s;
+	    -ms-transition: all 0.5s ease 0s;
+	    -o-transition: all 0.5s ease 0s;
+	    transition: all 0.5s ease 0s;
+	}
+	.menu_inner li{
+		display: inline-block;
+		justify-content: center;
+		padding: 15px 0;
+		margin: 0px;
+		min-width: 140px;
+		text-align: left;
+	}
+/*	.last{
+		order: 1;
+	}*/
+	.menu .show{
+		left: 0%;
+	}
+	.or_menu_img{
+		top: 15px;
+	}
+	.main-header .menu > input{
+		margin-right: 30px;
+	}
+	#toggle{
+		display: block;
+	}
+	.main-content h1{
+		font-size: 65px;
+	}
+	.search_input{
+		margin-right: 30px;
+	}
+	.search_box{
+		padding: 30px 40px;
+	}
+	.search_btn{
+		padding: 15px 30px;
+	}
+	.search_box > input{
+		height: 53px;
+	}
+	.radio input[type=radio] + .radio-label:before{
+		width: 20px;
+		height: 20px;
+		top: 2px;
+	}
+	.search_radio{
+		padding: 25px 0 0 0;
+	}
+	.main-content{
+		padding: 97px 0px;
+	}
+	.popular-section-inner .popular-contain{
+		padding: 25px;
+	}
+	.sub_title{
+		font-size: 40px;
+	}
+	/*********************  Main-Section CSS End  *********************/
+	/*********************  Popular-Section CSS Start  *********************/		
+	.date_box{
+		padding: 10px;
+	}
+	.date_box > span{
+		font-size: 30px;
+	}
+	.date_box span:last-child{
+		font-size: 13.5px;
+	}
+	.popular-section{
+		padding: 75px 0px;
+	}
+	/*********************  Popular-Section CSS End  *********************/	
+	/*********************  Molten Section CSS End  *********************/	
+	.molten_section{
+		padding: 0px 0px 75px 0px;
+	}
+	/*********************  Molten Section CSS End  *********************/	
+	/*********************  Most Viewd Section CSS End  *********************/	
+	.most_view_section{
+		padding: 0px 0px 75px 0px;
+	}
+	.popular-section-inner .location_box{
+		right: 20px;
+	}
+	.popular-section-inner .location_box .location{
+		padding: 5px 5px;
+	}
+	.location_box span{
+		margin-top: 5px;
+	}
+	.footer-contain{
+		order: 1;
+    	width: 50%;
+	}
+	.footer-inner-section .footer-new-contain{
+		width: 50%;
+		order: 2;
+	}
+	.countries{
+		order: 3;
+		width: 33.33%;
+	}
+	.social_media{
+		margin-bottom: 30px;
+	}
+	.countri_left_pad{
+		padding-left: 0px;
+	}
+	.countri_right_pad{
+		padding-right: 0px;
+	}
+	.border-new{
+		border-right:  none;
+	}
+	.most_view_section .popular-contain .d-flex{
+	    flex-direction: column;
+	}
+	.most_view_section .popular-contain .d-flex span{
+		margin-left: 0px;
+		margin-top: 8px;
+	}
+	.popular-img{
+		height: 231px;
+	}
+	.footer-tittle{
+		margin-top: 15px;
+	}
+	/*********************  Most Viewd Section CSS End  *********************/	
+	/*********************  Basketball_Court_Info CSS Start  *********************/
+	.cage_main_contain{
+		padding: 75px 0;
+	}
+	.cage_title, .court_comments_section .fiba-equ-title .cage_title, .court_comments_section .fiba-equ-title .cage_title{
+		font-size: 50px;
+	}
+	.cage_contain{
+		margin: 15px 0 25px;
+	}
+	.fiba-page-wrapper .cage_inner_section .cage_contain {
+		margin: 35px 0 25px;
+	}
+	.cage_box, .indoor-page-wrapper .cage_box {
+		padding: 25px 15px;
+	}
+	.count_view .cage_box_title {
+	    font-size: 20px;
+	}
+	.cage_main_contain .cage_box_btn{
+		padding: 13px 0px;
+	}
+	.cage_first_img{
+		min-height: 65px;
+	}
+	.cage_star_info img{
+		width: 70%;
+	}
+	.line_title .title_line:last-child{
+		margin-bottom: 10px;
+	}
+	.cage_box_title{
+		font-size: 22px;
+	}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+	    padding: 15px 20px !important;
+	}
+
+	/*********************  cage silder CSS Start  *********************/	
+	.cage_slider .player_contain {
+	    margin-top: 40px;
+	}
+	.cage_slider{
+		padding: 80px 0 75px 0;
+	}
+	.basketball_court_info .cage_title, .court_comments_section .cage_title {
+	    font-size: 40px;
+	}
+	.basketball_court_info .sub_title {
+	    font-size: 20px;
+	    margin: 10px 0 10px;
+	}
+	.basketball_court_info > span{
+		font-size: 18px;
+	}
+	/*********************  cage silder CSS End  *********************/	
+
+	/*********************  Court Comments CSS Start  *********************/
+	.basketball_title, .basketball_title_new, .in_basketball_court_info .basketball_title{
+		font-size: 17px;
+	}
+	.in_basketball_court_info .basketball_title_new {
+		font-size: 20px;
+	}
+	.cage_first_img img{
+		width: 80%;
+	}
+	.basketball_court_info .cage_box {
+	    padding: 20px 7px 20px;
+	}
+	.court_comments_section{
+		padding: 75px 0;
+	}
+	.court_comments_section .sub_title {
+	    margin: 30px 0 35px;
+	    font-size: 26px;
+	}
+	.court_comments_section .photo_btn {
+	    margin-bottom: 65px;
+	}
+	.local_weather_inner_section{
+		padding: 75px 0;
+	}
+	.local_inner_sectiom ul li img {
+	    margin-right: 15px;
+	}
+	.local_inner_sectiom ul li .local_contain p{
+		font-size: 22px;
+	}
+	.local_inner_sectiom ul li .local_contain span{
+		font-size: 20px;
+	}
+	.local_inner_sectiom ul li{
+		margin-right: 9px;
+	}
+	/*********************  Court Comments CSS End  *********************/
+	/*********************  Basketball near cage CSS Start  *********************/
+	.basketball_near_cage_section{
+		padding: 75px 0;
+	}
+	.basketball_near_cage_section .sub_title{
+		font-size: 40px;
+	}
+	.nice-select{
+		height: 55px;
+		padding-right: 90px;
+	}
+	.basketball_near_cage_section .sub_title{
+		margin-bottom: 40px;
+	}
+	.basketball_table_head tr th{
+		font-size: 20px;
+	}
+	.basketball_data p{
+		font-size: 17px;
+	}
+	.baskeball_span, .basketball_near_cage_section table tr td{
+		font-size: 15px;
+	}
+	.tissot_img{
+		width: 80%;
+	}
+	.fiba-email-break {
+		word-break: break-all;
+	}
+	/*********************  Basketball near cage CSS End  *********************/	
+	/*********************  Basketball_Court_Info CSS End  *********************/
+
+}
+
+@media screen and (max-width: 1079px) {
+	.local_inner_sectiom ul{
+		justify-content: center;
+	}
+	.local_inner_sectiom ul li{
+		width: 30%;
+		margin-bottom: 25px;
+		margin-right: 20px;
+	}
+	.local_inner_sectiom ul li:last-child{
+		margin-right: 0;
+	}
+}
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 991px) {
+	/*********************  Main-Section CSS Start  *********************/	
+	.main-content h1{
+		font-size: 49px;
+	}
+	.search_box > input{
+		width: 550px;
+	}
+	.search_box > input{
+		width: 470px;
+	}
+
+	/*********************  Main-Section CSS End  *********************/	
+	/*********************  Popular-Section CSS Start  *********************/	
+	.popular-section-inner .popular-contain{
+		padding: 15px 15px 15px 15px;
+	}
+	.popular-section-inner .popular-contain h3{
+		font-size: 20px;
+	}
+	.popular-section-inner .popular-contain p{
+		margin: 10px 0px;
+		line-height: 1.4;
+		font-size: 15px;
+	}
+	.date_box{
+		padding: 8px;
+		right: 30px;
+	}
+	.date_box > span{
+		font-size: 22px;
+	}
+	.date_box span:last-child{
+		font-size: 12px;
+	}
+	.popular-section{
+		padding: 60px 0px;
+	}
+	.sub_title{
+		font-size: 36px;
+		margin-bottom: 40px;
+	}
+	.popular-img{
+		height: 170px;
+	}
+	/*********************  Popular-Section CSS End  *********************/	
+	.popular-section-inner .location_box{
+		right: 15px;
+	}
+	.most_view_section .most_view_contain > p{
+		margin: 0px;
+		text-overflow: ellipsis; 
+	     overflow: hidden;
+	     display: -webkit-box;
+	    -webkit-line-clamp: 2; 
+	    -webkit-box-orient: vertical;
+	}
+	.most_view_contain{
+		padding-bottom: 15px;
+	}
+	.popular-section-inner .location_box {
+	    right: 15px;
+	    top: -45px;
+	}
+	.most_view_section .popular-section-inner .popular-contain{
+		padding: 15px;
+	}
+	.copy_right{
+		padding: 25px 0;
+	}
+	/*********************  Most Viewd Section CSS Start  *********************/	
+	.most_view_all .view_page{
+		font-size: 14px;
+	}
+	.count_view span{
+		font-size: 16px;
+	}
+	.location_box span{
+		font-size: 16px;
+	}
+	.popular-section-inner .location_box .location{
+		padding: 5px 7px;
+	}
+	.location img{
+		width: 55px;
+	}
+	/*********************  Most Viewd Section CSS End  *********************/		
+	/*********************  Footer Section CSS Start  *********************/		
+	.footer-wrapper{
+		padding: 60px  0 0 0;
+	}
+	.footer_menu li {
+	    margin-right: 0px;
+	    width: 33.33%;
+	    text-align: right;
+	}
+	/*********************  Footer Section CSS End  *********************/			
+	/*********************  Basketball_Court_Info CSS Start  *********************/
+	.cage_main_contain{
+		padding: 60px 0;
+	}
+	.cage_title {
+	    font-size: 42px;
+	}
+	.cage_box, .indoor-page-wrapper .cage_box {
+	    padding: 25px 65px;
+	}
+	.cage_first_img{
+		margin-bottom: 20px;
+	}
+
+
+	/*********************  cage silder CSS Start  *********************/		
+	.cage_slider .player_contain {
+	    margin-top: 30px;
+	}
+	.cage_slider .search_btn{
+		margin-top: 0px;
+	}
+	.cage_slider{
+		padding: 60px 0 50px 0;
+	}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+	    padding: 13px 20px !important;
+	}
+	.basketball_box {
+	    padding: 30px 30px ;
+	}
+	/*********************  cage silder CSS End  *********************/		
+	/*********************  Court Comments CSS Start  *********************/
+	.court_comments_section{
+		padding: 60px 0;
+	}
+	.cage_title, .basketball_court_info .cage_title, .court_comments_section .cage_title,
+	.court_comments_section .fiba-equ-title .cage_title, .court_comments_section .fiba-equ-title .cage_title{
+	    font-size: 38px;
+	}
+	.basketball_court_info .sub_title {
+	    font-size: 18px;
+	    margin: 10px 0 10px;
+	}
+	.court_comments_section .sub_title {
+	    margin: 25px 0 25px;
+	    font-size: 22px;
+	}
+	/*********************  Court Comments CSS End  *********************/
+	/*********************  Basketball_Court_Info CSS End  *********************/
+	/*********************  Local Weather CSS Start  *********************/
+	.local_weather_inner_section{
+		padding: 60px 0;
+	}
+	.local_weather_inner_section .sub_title{
+		margin-bottom: 30px;
+	}
+	.local_inner_sectiom ul{
+		justify-content: center;
+	}
+	
+	.basketball_near_cage_section .sub_title {
+	     margin-bottom: 30px;
+	     font-size: 36px; 
+	}
+	.basketball_court_info .row .col-lg-3{
+	    flex: 0 0 50%;
+    	max-width: 50%;
+	}
+	.basketball_court_info .basketball_box{
+		justify-content: center;
+	}
+	/*********************  Local Weather CSS End  *********************/
+	/*********************  Basketball near cage CSS start *********************/
+	.basketball_near_cage_section{
+		padding: 65px 0;
+	}	
+	.rating_filter span{
+		font-size: 20px;
+	}
+	.nice-select{
+	    height: 50px;
+	    padding-right: 45px;
+	}
+	.rating_filter span {
+	    font-size: 18px;
+	}
+	.tissot_img {
+		margin-top: 65px;
+	}
+	.outdoor_page .popular-section{
+		padding: 60px 0;
+	}
+	.outdoor_page .popular-section .load_more_section {
+	    margin-top: 30px;
+	}
+	.basketball_near_cage_section table tbody tr td{
+		padding: 15px 0;
+	}
+	.cage_main_contain .basketball_box_new{
+		padding: 0px 30px 30px 30px;
+	}
+	.nice-select:after, .nice-select.open::after{
+		top: 19%;
+	}
+	/*********************  Basketball near cage CSS End  *********************/
+	.ch_fb_count_view p {
+		font-size: 18px;
+	}
+	.fiba-equipment-table table tbody tr td p {
+		font-size: 15px	;
+	}
+	.fiba-event-block {
+		padding-bottom:60px;
+	}
+	.fiba-endorsed-equipment-wrapper {
+		padding: 60px 0;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+		/*********************  Main-Section CSS Start  *********************/	
+	.main-content{
+		padding: 187px 0 60px 0;
+	}
+	.main-header{
+	    position: fixed;
+	    width: 100%;
+	    z-index: 2;	
+	}
+	.main-content h1{
+		font-size: 45px;
+	}
+	.search_box > input{
+		width: 550px;
+	}
+	.search_box > input{
+		width: 100%;
+	}
+	.search_box{
+		padding: 17px 22px;
+	}
+	.radio {
+		margin-right: 8px;
+	}
+	.search_btn{
+		margin-top: 15px;
+	    padding: 12px 22px;
+	}
+	/*.logo_img{
+		max-width: 160px;
+	}*/
+	.logo_img {
+		min-width: 290px;
+	}
+	.main-header .menu > input{
+		margin-right: 15px;
+	}
+	.menu-main > img{
+		margin-left: 30px;
+	}
+	.menu-main > a:after{
+		right: -40px;
+	}
+	#menu{
+		width: 100%
+	}
+	.search_icon img{
+		display: block;
+		margin-right: 15px;
+	}
+	/*********************  Main-Section CSS End  *********************/	
+	.popular-section-inner .popular-contain h3{
+		-webkit-line-clamp: 0;
+	}
+	.popular-img img {
+	    width: 100%;
+	    height: 100%;
+	    object-fit: cover;
+	}
+	.date_box{
+		padding: 15px;
+		right: 40px;
+		top: -10%;
+	}
+	.date_box > span{
+		font-size: 36px;
+	}
+	.date_box span:last-child{
+		font-size: 14px;
+	}
+	.popular-section-inner .location_box{
+	    right: 30px;
+	    top: -39px;
+	}
+	.popular-margin{
+		margin-bottom: 0px;
+	}
+	.popular-section{
+		padding: 50px 0;
+	}
+	.sub_title{
+		margin-bottom: 50px;
+	}
+	.most_view_all{
+		margin-bottom: 40px;
+	}
+	.new-mar{
+		margin-top: 60px;
+	}
+	.most_view_section .popular-contain .d-flex{
+		flex-direction: row;
+	}
+	.most_view_section .popular-contain .d-flex span{
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+	.most_view_section{
+		padding: 0 0 30px 0;
+	}
+	/*********************  Footer Section CSS Start  *********************/	
+	.footer-wrapper{
+		padding: 50px 0 0 0;
+	}
+	.copy_right{
+		padding: 15px 0;
+	}
+	.footer-inner-section{
+		padding-bottom: 50px;
+	}
+	/*********************  Footer Section CSS End  *********************/
+	/*********************  Basketball_Court_Info CSS Start  *********************/
+	.cage_main_contain{
+		padding: 150px 0 50px;
+	}
+	.cage_title, .basketball_court_info .cage_title, .court_comments_section .cage_title,
+	.court_comments_section .fiba-equ-title .cage_title, .court_comments_section .fiba-equ-title .cage_title{
+		font-size: 36px;
+	}
+	.cage_contain, .count_view .cage_box_title{
+		font-size: 17px;
+	}
+	.cage_box,  .indoor-page-wrapper .cage_box{
+		padding: 20px 30px;
+	}
+	.cage_box_title, .indoor-page-wrapper .cage_box_title {
+	    font-size: 20px;
+	}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+	    padding: 11px 17px !important;
+	}
+	.cage_slider {
+	    padding: 100px 0 50px 0;
+	}
+	.cage_slider .player_contain{
+		margin: 25px 0;
+	}
+	.outdoor_page .search_btn{
+		font-size: 16px;
+		margin-top: 5px;
+	}
+	.cage_star_info span{
+		margin-bottom: 15px;
+	}
+	.basketball_court_info .cage_box {
+	    padding: 20px 15px 20px;
+	}
+	.basketball_court_info .cage_first_img{
+		margin-bottom: 15px;
+	}
+	.court_comments_section{
+		padding: 50px 0;
+	}
+	/*********************  Basketball_Court_Info CSS end  *********************/	
+	/*********************  Court Comments CSS Start  *********************/	
+	.basketball_box {
+		padding: 30px;
+	}
+	/*********************  Court Comments CSS End  *********************/
+	/*********************  Basketball near cage CSS Start *********************/
+	.basketball_near_cage_section .sub_title {
+	    margin-bottom: 25px;
+	    font-size: 32px;
+	}
+	.tissot_img {
+	    margin-top: 50px;
+	}
+	.outdoor_page .popular-section{
+		padding: 50px 0;
+	}
+	.basketball_near_cage_section{
+		padding: 50px 0;
+	}
+	.court_comments_section .map_btn{
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+	/*********************  Basketball near cage CSS End  *********************/
+	.fiba-venue-logo {
+		display: none;
+	}
+	.fiba-page-wrapper .cage_box_btn {
+		min-height: 45px;
+	}
+	.fiba-event-block {
+		padding-bottom: 50px;
+	}
+	.fiba-endorsed-equipment-wrapper {
+		padding: 50px 0;
+	}
+	.fiba-page-wrapper .cage_inner_section .cage_contain {
+		margin: 15px 0 25px;
+	}
+
+}
+
+@media screen and (max-width: 575px) {
+	.basketball_near_cage_section .table td, 
+	.basketball_near_cage_section .table th{
+		padding-right: 15px;
+	}
+	.basketball_data p{
+		white-space: pre-wrap;
+	}
+
+	/*.logo_img{
+		max-width: 145px;
+	}*/
+	.logo_img {
+		min-width: 260px;
+	}
+	.patner_img{
+		max-width: 90px;
+	}
+	.menu-main > a:after{
+		right: -35px;
+	}
+	.menu-main > img{
+		margin-left: 20px;
+	}
+	.main-content{
+		padding: 174px 0 90px;
+	}
+	.sub_title{
+		font-size: 32px;
+		margin-bottom: 40px;
+	}
+	.search_box{
+		padding: 15px;
+	}
+	.search_box input::placeholder{
+		font-size: 13px;
+	}
+	.search_radio{
+		padding-top: 15px;
+	}
+	.radio{
+		margin-right: 0px;
+	}
+	.radio-label{
+		font-size: 13px;
+	}
+	.search_btn{
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+	.main-content h1{
+		font-size: 30px;
+	}
+	.search_box > input{
+		height: 45px;
+	}
+	.date_box {
+	    padding: 8px;
+	    right: 30px;
+	}
+	.date_box > span{
+		font-size: 22px;
+	}
+	.date_box{
+		top: -5%;
+	}
+	.molten_section{
+		padding-bottom: 50px;
+	}
+	.date_box span:last-child{
+		font-size: 12px;
+	}
+	.popular-section-inner .location_box{
+		right: 15px;
+	}
+	.footer-contain{
+		width: 100%;
+		padding-right: 0px;
+		margin-bottom: 30px;
+	}
+	.footer-inner-section .footer-new-contain{
+		width: 100%;
+		padding-left: 0px;
+	}
+	.countries ul{
+		display: none;
+	}
+	.countries{
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.footer-contain p{
+		margin-top: 20px;
+	}
+	.social_media{
+		padding: 20px 0 0 0;
+		margin-bottom: 0px;
+	}
+	.footer-wrapper{
+		padding: 50px 0 0px;
+	}
+	.footer-inner-section{
+		padding-bottom: 30px;
+	}
+	.most_view_section{
+		padding-bottom: 0px;
+	}
+	.footer-tittle{
+		margin-bottom: 15px;
+	}
+	.footer-inner-section{
+		padding-bottom: 40px;
+	}
+	.drop-tittle{
+		display: flex;
+		align-items: center;
+		align-content: center;
+	}
+	.drop-tittle img{
+		display: block;
+		margin-left: 10px;
+		position: absolute;
+		right: 15px;
+	}
+	.we-35{
+		width: 26%
+	}
+	.we-65{
+		width: 38%
+	}
+	.radio-label{
+		line-height: 20px;
+	}
+	.radio{
+		margin-bottom: 5px;
+	}
+	.popular-margin{
+		margin-bottom: 0px;
+	}
+	.molten_section{
+		padding-bottom: 30px;
+	}
+	.popular-section{
+		padding: 50px 0 30px 0;
+	}
+	.footer-contain p{
+		font-size: 14px;
+	}
+	.new-mar{
+		margin-top: 40px;
+	}
+	.countries{
+		border: none;
+	}
+	.most_view_section .popular-contain .d-flex span{
+		font-size: 14px;
+		margin-left: 8px;
+	}
+	.menu_inner{
+		align-items: flex-start;
+		padding-left: 40px;
+	}
+	.copy_right{
+		flex-wrap: wrap;
+	}
+	.copy_right p{
+		min-width: 100%;
+		margin-bottom: 15px;
+	}
+	.footer_menu li{
+		width: unset;
+		margin-right: 15px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	/*********************  Basketball_Court_Info CSS Start  *********************/
+	.cage_inner_box{
+		margin-bottom: 8px;
+	}
+	.cage_box, .indoor-page-wrapper .cage_box {
+	    padding: 20px 15px; 
+	}
+	.cage_main_contain .cage_box_btn{
+		width: unset;
+    	padding: 10px 20px;
+	}
+	.cage_main_contain {
+	    padding: 130px 0 50px;
+	}
+	.cage_slider .player_contain {
+	    margin: 20px 0;
+	}
+	.outdoor_page .search_btn{
+		margin-top: 0px;
+	}
+	.cage_slider {
+	    padding: 100px 0 35px 0;
+	}
+	.cage_title, 
+	.basketball_court_info .cage_title, 
+	.court_comments_section .cage_title,
+	.local_weather_inner_section .sub_title,
+	.basketball_near_cage_section .sub_title,
+	.court_comments_section .fiba-equ-title .cage_title, .court_comments_section .fiba-equ-title .cage_title{
+		font-size: 28px;
+	}
+	.basketball_media{
+		margin-bottom: 30px;
+	}
+	.cage_main_contain {
+	    padding: 130px 0 40px;
+	}
+	/*********************  Court Comments CSS Start  *********************/
+	.court_comments_section{
+		padding: 40px 0;
+	}
+	.court_comments_section .sub_title{
+		font-size: 18px;
+	}
+	.court_comments_section .photo_btn{
+		margin-bottom: 40px;
+	}
+	.cage_slider {
+	    padding: 35px 0 35px 0;
+	}
+	/*********************  Court Comments CSS End  *********************/
+	/*********************  Local Weather CSS Start  *********************/
+	.local_weather_inner_section{
+		padding: 40px 0;
+	}
+	.local_inner_sectiom ul li .local_contain p{
+		font-size: 18px;
+	}
+	.local_inner_sectiom ul li .local_contain span{
+		font-size: 16px;
+	}
+	/*********************  Local Weather CSS Ends *********************/	
+
+	/*********************  Basketball near cage CSS Start  *********************/
+	.nice-select {
+	    height: 45px;
+	    padding-right: 40px;
+	}
+	.filter_select {
+		margin-left: 8px;
+	}
+	.basketball_table_head tr th {
+	    font-size: 18px;
+	}
+	.basketball_near_cage_section .table_pad_left{
+		padding-left: 15px;
+	}
+	.tissot_img {
+	    margin-top: 40px;
+	}
+	.local_inner_sectiom ul li{
+		width: 50%;
+		margin-right: 0px;
+		justify-content: center;
+	}
+	.local_min_width{
+		width: 52px;
+		display: flex;
+		justify-content: flex-end;
+		margin-right: 15px;
+	}
+	.local_inner_sectiom ul li img{
+		margin-right: 0px;
+	}
+	.basketball_box {
+	     padding: 30px 0; 
+	}
+	.cage_main_contain .basketball_box_new {
+	    padding: 0px 0px 30px 0px;
+	}
+	.outdoor_page .search_btn{
+		font-size: 15px;
+		padding: 10px 20px;
+	}
+	.cage_box_mar{
+		margin-bottom: 30px;
+	}
+	.rating_filter{
+		flex-direction: column;
+	}
+	.nice-select{
+		width: 50%;
+		margin-top: 10px;
+	}
+	.rating_filter span{
+		font-size: 16px;
+	}
+	.load_more_section{
+		margin: 25px 0 0 0;
+	}
+	.court_comments_section .map_btn{
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+	.basketball_court_info .cage_box{
+		padding: 15px;
+	}
+	/*********************  Basketball near cage CSS End  *********************/
+	.court_comments_section .search {
+		vertical-align: bottom;
+	}
+	.fiba-event-block {
+		padding-bottom: 40px;
+	}
+	.fiba-endorsed-equipment-wrapper {
+		padding: 40px 0;
+	}
+
+}
+@media screen and (max-width: 480px) {
+	.search_radio{
+		justify-content: unset;
+	}
+	.we-35 {
+	    width: 50%;
+	}
+	.we-65 {
+	    width: 50%;
+	}
+	.basketball_court_info .basketball_media_new{
+		margin-top: 0px;
+	}
+
+}
+@media screen and (max-width: 450px) {
+	.cage_main_contain {
+	    padding: 120px 0 40px;
+	}
+	.cage_slider {
+	    padding: 61px 0 35px 0;
+	}
+	.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+	    padding: 10px 15px !important;
+	}
+	.local_inner_sectiom ul li:last-child{
+		margin-bottom: 0px;
+	}
+	.load_more_section {
+	    margin: 0px 0 0 0;
+	}
+	.tissot_img {
+	    margin-top: 35px;
+	}
+	/*********************  Basketball_Court_Info CSS Start  *********************/
+	.cage_box_full, .basketball_full{
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+	.cage_box_mar_new, .basketball_media_new{
+		margin-top: 30px;
+	}
+	.nice-select:after, .nice-select.open::after {
+	    top: 15%;
+	}
+	.court_comments_section .map_btn{
+		margin-top: 22px;
+		margin-bottom: 40px;
+	}
+	.basketball_court_info .row .col-lg-3{
+	    flex: 0 0 100%;
+    	max-width: 100%;
+	}
+	.basketball_media:last-child {
+		margin-bottom: 0;
+	}
+	/*********************  Basketball_Court_Info CSS End  *********************/
+	.cage_main_contain .basketball_box_new {
+		padding: 0;
+	}
+}
+@media screen and (max-width: 430px) {
+	.local_weather_inner_section .sub_title{
+		font-size: 28px;
+	}
+	.sub_title{
+		font-size: 25px;
+	}
+	.most_view_section .sub_title{
+		margin-bottom: 30px;
+	}
+	.main-content h1 br{
+		display: none;
+	}
+	.search_box > input{
+		text-indent: 15px;
+	}
+	.local_min_width{
+		margin-right: 10px;
+	}
+	.nice-select{
+		width: 70%;
+	}
+	
+}
+@media screen and (max-width: 375px) {
+	.we-65,
+	.we-35 {
+	    width: 100%;
+	}
+	.most_view_section .popular-contain .d-flex{
+	    flex-direction: column;
+	}
+	.most_view_section .popular-contain .d-flex span{
+		margin-left: 0px;
+		margin-top: 8px;
+	}
+	/*.logo_img{
+		max-width: 130px;
+	}*/
+	.logo_img {
+		min-width: 235px;
+	}
+	.payner_image{
+		max-width: 85px;
+	}
+	.local_inner_sectiom ul li{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 320px) {
+	.main-content h1{
+		font-size: 28px;
+	}
+	.cage_box_title, .indoor-page-wrapper .cage_box_title{
+		font-size: 18px;
+	}
+	.cage_first_img {
+		margin-bottom: 10px;
+	}
+	.cage_box .count_view{
+		margin-top: 5px;
+	}
+	.cage_box{
+		padding: 15px;
+	}
+	.cage_box_mar, .basketball_media{
+		margin-bottom: 20px;
+	}
+	.cage_box_mar_new, .basketball_media_new{
+		margin-top: 20px;
+	}
+	.cage_slider{
+		padding: 40px 0 35px 0;
+	}
+	.cage_title, .basketball_court_info .cage_title, .court_comments_section .cage_title {
+	    font-size: 28px;
+	}
+	.basketball_box {
+	    padding: 25px 0;
+	}
+	.cage_main_contain {
+	    padding: 120px 0 35px;
+	}
+	.court_comments_section, .basketball_near_cage_section{
+		padding: 35px 0;
+	}
+}
+
+
+

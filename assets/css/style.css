@@ -1,0 +1,1513 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+/*********************  Default-CSS  *********************/
+html body {
+    font-family: Poppins-Regular;
+    margin: 0;
+    line-height: 1.3;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+.anim{
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+a,
+div a:hover,
+div a:active,
+div a:focus,
+button {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+a,
+span,
+a:hover,
+a:active,
+button {
+    text-decoration: none;
+}
+
+*::after,
+*::before,
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a:focus, button:focus, input:focus, select:focus {
+    outline: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+body .clearfix,
+body .clear {
+    clear: both;
+    line-height: 100%;
+}
+
+body .clearfix {
+    height: auto;
+}
+
+* {
+    outline: none !important;
+}
+
+ul, li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+/*********************  Default-CSS close  *********************/
+
+/*********************  header CSS Start  *********************/
+.container{
+    max-width: 1200px;
+}
+.main-header{
+    padding: 16px 0 16px 0; 
+    background-color: #ffffff;
+    position: relative;
+}
+.menu-main > img{
+    margin-left: 24px;
+}
+.menu-main > a{
+    position: relative;
+}
+/*.menu-main > a:after {
+    content: ' ';
+    width: 47px;
+    height: 2px;
+    position: absolute;
+    background-color: #d7c074;
+    transform: rotate(90deg);
+    top: 12px;
+    right: -37px;
+}*/
+.logo_img {
+    min-width: 313px;
+}
+.menu, .menu_inner{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.menu_inner li a span{
+    text-transform: uppercase;
+}
+.header-wrapper header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+nav{
+    display: inline-block;
+}
+.menu img{
+    margin-right: 10px;
+}
+.menu li{
+    margin-right: 20px;
+    font-family: Poppins-SemiBold;
+    font-size: 16px;
+    display: flex;
+    position: relative;
+}
+.menu li a{
+    color: #171b1e;
+}
+.menu li:last-child{
+    margin-right: 0px;
+}
+.search_input{
+    margin-right: 30px;
+    width: 195px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #dddddd;
+    font-size: 16px;
+    color: #f76245;
+    position: relative;
+    background-image: url(../image/search-line.png);
+    background-size: 21px 21px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    padding-left: 50px; 
+    padding-right: 10px;
+}
+.search_input::placeholder{
+    color: #b8b8b8;
+}
+.search_icon{
+	display: none;
+}
+#toggle {
+  width: 28px;
+  height: 30px;
+  display: none;
+  position: relative;
+  right: 0px;
+  cursor: pointer;
+  z-index: 101;
+}
+#toggle div {
+    width: 100%;
+    height: 5px;
+    background: #f66245;
+    margin: 4px auto;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    backface-visibility: hidden;
+}
+#toggle.on .one {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+#toggle.on .two {
+  opacity: 0;
+}
+
+#toggle.on .three {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+#menu{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+    margin: auto;
+    position: fixed;
+    right: 100%;
+    top: 0PX;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+#menu.show{
+    right: 0;
+}
+.or_menu_img{
+    position: absolute;
+    opacity: 0;
+    left: 0px;
+    top: 1px;
+}
+.menu_inner li:hover span{
+    color: #f76245;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.menu_inner li:hover .menu_img{
+    opacity: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.menu_inner li:hover .or_menu_img{
+    opacity: 1;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.mobile_inner_menu a:hover{
+    color: #f66245;
+}
+.mobile_inner_menu a:hover .menu_img{
+    opacity: 0;
+}
+.mobile_inner_menu a:hover .or_menu_img{
+    opacity: 1;
+}
+.mobile_inner_menu a{
+    position: relative;
+}
+/*********************  Main-Section CSS Start  *********************/   
+.main-content{
+    padding: 182px 0 162px 0;
+    background-image: url(../image/banner_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+.main-content h1{
+    font-size: 80px;
+    font-family: Poppins-Bold;
+    color: #090c0c;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.main-content h1 span{
+    color: #f66245;
+}
+.search_box{
+    padding: 50px 80px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 29px 0px rgba(47, 53, 66, 0.15);
+    -moz-box-shadow: 0px 0px 29px 0px rgba(47, 53, 66, 0.15);
+    box-shadow: 0px 0px 29px 0px rgba(47, 53, 66, 0.15);
+}
+.search_box > input{
+    height: 60px;
+    width: 625px;
+    border: 1px solid #f76245;
+    border-radius: 10px;
+    text-indent: 30px;
+    margin-right: 15px;
+    color: #f76245;
+}
+.search_box > input::placeholder{
+    font-size: 18px;
+    font-family: Poppins-Medium;
+    color: #b8b8b8;
+}
+.search_btn{
+    display: inline-block;
+    align-items: center;
+    background-color: #f76245;
+    padding: 18.5px 60px;
+    font-size: 18px;
+    color:  #ffffff;
+    font-family: Poppins-Bold;
+    border-radius: 10px;
+    border: 1px solid #f76245;
+}
+.search_btn p span{
+    margin-left: 10px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+.search{
+    margin-right: 8px;
+    vertical-align: top;
+    display: inline-block;
+}
+.orange_search{
+    display: none;
+}
+.search_btn:hover .orange_search{
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: top;
+}
+.search_btn:hover .search{
+    display: none;
+}
+.search_btn:hover{
+    background-color: transparent;
+    color: #f76245;
+}
+.search_radio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0px 0px 0px;
+}
+.search_radio li{
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+}
+.search_radio li input{
+    width: 25px;
+    height: 25px;
+    color: #f76245;
+    margin-right: 10px;
+}
+.search_radio li span{
+    font-family: Poppins-Medium;
+    content: #090c0c;
+    font-size: 18px;
+}
+.search_radio input[type='radio']:checked:after {
+    background-color: #f66245;
+    content: #f66245;
+}
+.radio{
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  cursor: pointer;
+}
+.radio:last-child{
+    margin-right: 0px;
+}
+.radio input[type=checkbox] {
+  position: absolute;
+  opacity: 0;
+}
+.radio input[type=checkbox] + .radio-label:before {
+    content: "";
+    background: #ffffff;
+    border-radius: 100%;
+    border: 1px solid #b4b4b4;
+    display: inline-block;
+    width: 1.4em;
+    height: 1.4em;
+    position: relative;
+    top: 0em;
+    left: 8px;
+    margin-right: 1em;
+    vertical-align: top;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+    transition: all 250ms ease;
+    font-family: Poppins-Medium;
+}
+.radio-label{
+    font-size: 18px;
+    font-family: Poppins-Medium;
+}
+label{
+    margin: 0px;
+    line-height: 25px;
+    cursor: pointer;
+}
+.radio input[type=checkbox]:checked + .radio-label:before {
+  background-color: #f66245;
+  -webkit-box-shadow: inset 0 0 0 4px #f4f4f4;
+  -moz-box-shadow: inset 0 0 0 4px #f4f4f4;
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+  border: 1px solid #f66245;
+}
+.radio input[type=checkbox]:focus + .radio-label:before {
+  outline: none;
+  border-color: #f66245;
+}
+.radio input[type=checkbox]:disabled + .radio-label:before {
+  -webkit-box-shadow: inset 0 0 0 4px #f4f4f4;
+  -moz-box-shadow: inset 0 0 0 4px #f4f4f4;
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+  border-color: #b4b4b4;
+  background: #b4b4b4;
+}
+.radio input[type=checkbox] + .radio-label:empty:before {
+  margin-right: 0;
+}
+
+
+
+/* Radio Color */
+.radio.outdoor-radio input[type=checkbox]:checked + .radio-label:before{
+        background-color: #204f84; 
+        border: 1px solid #204f84;
+        color: #204f84;
+}
+.radio.fiba-radio input[type=checkbox]:checked + .radio-label:before{
+        background-color: #ff6a00; 
+        border: 1px solid #ff6a00;
+        color: #ff6a00;
+}
+.radio.indoor-radio input[type=checkbox]:checked + .radio-label:before{
+        background-color: #424344; 
+        border: 1px solid #424344;
+        color: #424344;
+}
+
+
+/* Radio text Color */
+.radio.outdoor-radio input[type=checkbox]:checked + .radio-label{
+        color: #204f84;
+}
+.radio.fiba-radio input[type=checkbox]:checked + .radio-label{
+        color: #ff6a00;
+}
+.radio.indoor-radio input[type=checkbox]:checked + .radio-label{
+        color: #424344;
+}
+
+
+
+.radio input[type=checkbox] + .radio-label:before{
+    border: 1px solid #f66245;
+}
+
+.radio.outdoor-radio input[type=checkbox] + .radio-label:before{
+        border: 1px solid #204f84;
+        color: #204f84;
+}
+.radio.fiba-radio input[type=checkbox] + .radio-label:before{
+        border: 1px solid #ff6a00;
+        color: #ff6a00;
+}
+.radio.indoor-radio input[type=checkbox] + .radio-label:before{
+        border: 1px solid #424344;
+        color: #424344;
+}
+
+/* Radio text Color */
+.radio.outdoor-radio input[type=checkbox] + .radio-label{
+        color: #204f84;
+}
+.radio.fiba-radio input[type=checkbox] + .radio-label{
+        color: #ff6a00;
+}
+.radio.indoor-radio input[type=checkbox] + .radio-label{
+        color: #424344;
+}
+
+
+
+/*********************  Main-Section CSS End  *********************/
+
+
+
+/*********************  Popular Section CSS Start  *********************/
+.popular-section{
+    padding: 110px 0 30px 0;
+}
+.popular-section .popular-section-inner{
+    padding: 0px 95px;
+}
+.popular-all{
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 47px 0px rgba(47, 53, 66, 0.09);
+    -moz-box-shadow: 0px 0px 47px 0px rgba(47, 53, 66, 0.09);
+    box-shadow: 0px 0px 47px 0px rgba(47, 53, 66, 0.09);
+    border-radius: 10px;
+}
+.sub_title{
+    font-size: 46px;
+    color: #090c0c;
+    font-family: Poppins-Bold;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.sub_title span{
+    color: #f66245;
+}
+.popular-section-inner{
+    padding: 0px 75px;
+}
+.popular-img{
+    height: 203px;
+    border-radius: 10px 10px 0 0;
+}
+.popular-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+.popular-section-inner .popular-contain{
+    padding: 25px 25px 25px 25px;
+    position: relative;
+}
+.popular-contain a{
+    color: #090c0c;
+}
+.popular-contain a:hover {
+    color: #f66245;
+}
+.popular-contain a.view_more:hover{
+    color: #090c0c;
+}
+.popular-section-inner .popular-contain h3{
+    font-family: Poppins-Bold;
+    font-size: 22px;
+    text-overflow: ellipsis; 
+     overflow: hidden;
+     display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+.popular-section-inner .popular-contain p{
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.4;
+    text-overflow: ellipsis; 
+     overflow: hidden;
+     display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+    margin: 8px 0 15px;
+}
+.popular-section-inner .view_more{
+    font-family: Poppins-Medium;
+    font-size: 15px;
+    color: #f66245;
+    position: relative;
+}
+.view_more::after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: #f66245;
+    left: 0px;
+    bottom: -2px;
+}
+
+.view_more:hover::after{
+    background-color: #090c0c;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.date_box{
+    position: absolute;
+    padding: 7px 9px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f66245;
+    border-radius: 10px;
+    top: -20px;
+    right: 35px;
+}
+.date_box > span{
+    font-size: 36px;
+    font-family: Poppins-Bold;
+    color: #ffffff;
+}
+.date_box span:last-child{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    color: #ffffff;
+}
+/*********************  Popular Section CSS End  *********************/
+
+/*********************  Molten ection CSS Start  *********************/
+.molten_section{
+    padding: 60px 0 0 0px;
+    text-align: center;
+}
+/*********************  Molten ection CSS End  *********************/
+
+/*********************  Most Viewed CSS Start  *********************/
+.most_view_all{
+    -webkit-box-shadow: 0px 0px 47px 0px rgba(47, 53, 66, 0.09);
+    -moz-box-shadow: 0px 0px 47px 0px rgba(47, 53, 66, 0.09);
+    box-shadow: 0px 0px 47px 0px rgba(47, 53, 66, 0.09);
+    border-radius: 10px;
+}
+.most_view_section .sub_title{
+    margin-bottom: 40px;
+}
+.most_view_section .popular-section-inner{
+    padding: 0px 100px;
+}
+.most_view_section{
+    padding: 80px 0 110px 0;
+}
+.popular-contain > .d-flex{
+    margin-bottom: 12px;
+	align-items: flex-start;
+    flex-direction: column;
+}
+.most_view_section .popular-contain .d-flex span{
+    margin-top: 10px;
+}
+.most_view_contain{
+    display: flex;
+    align-items: baseline;
+    padding: 8px 0 15px 0;
+}
+.most_view_contain > img{
+    margin-right: 10px
+}
+.most_view_contain > p{
+    align-self: flex-start;
+}
+.count_view{
+    display: flex;
+    align-items: center;
+    padding: 8px 0 0 0;
+}
+.count_view img{
+    margin-right: 10px;
+}
+.count_view span{
+    font-size: 18px;
+}
+.most_view_all .view_page{
+    margin-left: 17px;
+    display: inline-block;
+    font-size: 16px;
+    color: #f66245;
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    position: relative;
+}
+.most_view_all .view_page::after{
+    content: ' ';
+    width: 100%;
+    height: 2px;
+    background-color: #f66245;
+    position: absolute;
+    left: 0px;
+    bottom: -4px;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.view_page:hover{
+    color: #090c0c;
+}
+.view_page:hover::after{
+    background-color: #090c0c;
+} 
+.popular-section-inner .location_box{
+    position: absolute;
+    top: -36px;
+    right: 25px;  
+    text-align: center; 
+}
+.popular-section-inner .location_box .location{
+    width: 80px;
+    background-color: #ffffff;
+    padding: 7px 10px;
+    -webkit-box-shadow: 0px 0px 29px 0px rgba(47, 53, 66, 0.15);
+    -moz-box-shadow: 0px 0px 29px 0px rgba(47, 53, 66, 0.15);
+    box-shadow: 0px 0px 29px 0px rgba(47, 53, 66, 0.15);
+    text-align: center;
+    border-radius: 10px;
+}
+.location_box span{
+    margin-top: 10px;
+    display: inline-block;
+    font-family: Poppins-Bold;
+    font-size: 18px;
+    color: #424344;
+}
+.location_box .out_color1{
+    color:  #204f84;
+}
+.location_box .out_color2{
+    color: #ff6a00;
+}
+.location_margin{
+    margin-left: auto;
+}
+.most_view_section .popular-contain p{
+    margin: 0px;
+}
+.location_link > a:first-child{
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.location_link{
+    align-self: flex-start;
+}
+.location_link a:hover{
+    color: #f66245;
+}
+/*********************  Most Viewed CSS End  *********************/
+
+/*********************  Footer CSS Start  *********************/
+.footer-wrapper{
+    background-color: #f1f2f6;
+    padding: 86px 0 0 0;
+}
+.footer-inner-section{
+    display: flex;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #f1f2f6;
+    flex-wrap: wrap;
+}
+.countries{
+    width: 17%;
+    padding: 0 0 0 15px;
+    border-right: 1px solid #dfe1e5;
+}
+.footer-contain{
+    width: 24%;
+    border-right: 1px solid #dfe1e5;
+}
+.footer-inner-section .footer-new-contain{
+    width: 24.5%;
+    border: none;
+    padding-left: 15px;
+}
+.footer-contain p{
+    font-size: 16px;
+    color: #8d9194;
+    line-height: 29px;
+    margin-top: 20px;
+}
+.footer-contain span{
+    font-size: 16px;
+    color: #8d9194;
+    line-height: 29px;
+}
+.email{
+    color: #1b1b1b;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    font-family: Poppins-Bold;
+}
+.email:before{
+    content: ' ';
+    width: 100%;
+    height: 2px;
+    background-color: #1b1b1b;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+}
+.pad{
+    padding: 0 15px 0 0;
+}
+.drop-tittle img{
+    display: none;
+}
+.footer-new-contain{
+    padding: 0 0 0 15px;
+}
+.footer-tittle{
+    color: #1b1b1b;
+    font-size: 18px;
+    font-family: Poppins-Bold;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.popular_countries ul li{
+    margin-bottom: 8px;
+}
+.popular_countries ul li a{
+    font-size: 16px;
+    color: #6a6e71;
+}
+.social_media{
+    padding: 30px 0 0 0;
+}
+.social_media a{
+    width: 51px;
+    height: 51px;
+    text-align: center;
+    line-height: 51px;
+    background-color: #dfe4ea;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.social_media a:last-child{
+    margin-right: 0px;
+}
+.social_media a:hover{
+	background-color: #f66245;
+}
+.social_media a:hover .social_img{
+    filter: brightness(0) invert(1);
+}
+.copy_right{
+    padding: 30px 0; 
+    border-top: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: space-between;
+}
+.copy_right p{
+    text-align: center;
+    color: #8d9194;
+    font-size: 16px;
+}
+.footer_menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_menu li{
+    margin-right: 20px;
+}
+.footer_menu li:last-child{
+    margin-right: 0px;
+}
+.footer_menu li a{
+    color: #8d9194;
+}
+.footer_menu li a:hover{
+    color: #f66245;
+}
+.popular_countries ul li a:hover{
+    color: #f66245;
+}
+.social_img{
+    position: relative;
+}
+.cm_overflow{
+    overflow: hidden;
+}
+.rotat{
+        transform: rotate(180deg);
+}
+
+/*********************  Footer CSS End  *********************/
+.cage_main_contain{
+    padding: 85px 0 100px;
+    background-color: #f1f2f6;
+}
+.cage_title{
+    font-size: 60px;
+    color: #204f84;
+    font-family: Poppins-Bold;
+    text-align: center;
+}
+.cage_contain{
+    color: #131313;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 30px 0;
+}
+.cage_box{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 45px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.cage_inner_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+}
+.cage_main_contain .cage_box_btn{
+    width: 100%;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: center;
+}
+.cage_box_title{
+    font-family: Poppins-SemiBold;
+    color: #090c0c;
+    font-size: 24px;
+    text-align: center;
+}
+.cage_box .count_view{
+    margin-top: 10px;
+    padding: 0px;
+    justify-content: center;
+}
+.cage_box .count_view p{
+    font-family: Poppins-SemiBold;
+    font-size: 18px;
+}
+.cage_box .count_view p span{
+    color: #555555;
+}
+.cage_star_info{
+    flex-direction: column;
+}
+.cage_star_info img{
+    margin-bottom: 10px;  
+}
+.cage_star_info span{
+  font-family: Poppins-SemiBold;
+  font-size: 20px;
+  color: #555555;
+  margin: 0 0 20px 0;  
+}
+.count_view .cage_box_title{
+    font-size: 22px;
+}
+.cage_first_img{
+    min-height: 77px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cage_main_contain .count_view .title_line{
+    position: relative;
+    margin-bottom: 5px;
+}
+.cage_main_contain .count_view .title_line::after{
+    content: ' ';
+    width: 100%;
+    height: 1px;
+    background-color: #090c0c;
+    position: absolute;
+    left: 0px;
+    bottom: -2px;
+}
+.line_title{
+    flex-direction: column;
+}
+.line_title .title_line:last-child{
+    margin-bottom: 20px;
+}
+/*silder*/
+.cage_slider{
+    padding: 87px 0 100px 0;
+    text-align: center;
+}
+.cage_slider .owl-nav .owl-prev{
+    position: absolute;
+    top: 50%;
+    left: -38px;
+    transform: translateY(-50%);
+}
+.cage_slider .owl-nav .owl-next{
+    position: absolute;
+    top: 50%;
+    right: -38px;
+    transform: translateY(-50%);
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    padding: 20px 28px !important;   
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px -1px rgb(0 0 0 / 10%)
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: #f76245;
+}
+.owl-theme .owl-nav [class*=owl-]:hover img{
+    filter: brightness(0) invert(1);
+}
+.cage_slider .player_contain{
+    font-family: Poppins-Medium;
+    font-size: 18px;
+    color: #696969;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+.photo_btn{
+    display: inline-block;
+    padding: 18.5px 45px;
+    text-transform: uppercase;
+}
+/*********************  Basketball_Court_Info CSS Start  *********************/
+.basketball_court_info{
+    text-align: center;
+}   
+.basketball_box{
+    padding: 45px 0 40px 0;
+    text-align: center;
+}
+.basketball_court_info .cage_title, .court_comments_section .cage_title{
+    font-size: 46px;
+}
+.basketball_court_info .sub_title{
+    font-size: 22px;
+    margin: 15px 0 10px;
+    font-family: Poppins-SemiBold;
+}
+.basketball_court_info > span{
+    color: #f76245;
+    font-size: 20px;
+    font-family: Poppins-Medium;
+    text-align: center;
+    display: block;
+}
+.basketball_court_info .cage_first_img{
+    min-height: 101px;
+    display: flex;
+    justify-content: center;
+}
+.basketball_title, .basketball_title_new{
+    font-size: 20px;
+    color: #181c1e;
+    text-align: center;
+}
+.basketball_court_info .basketball_title_new{
+    font-family: Poppins-Bold;
+}
+.basketball_court_info .cage_box{
+    padding: 30px 15px 30px;
+}
+/*********************  Basketball_Court_Info CSS End  *********************/
+
+/*********************  Court Comments CSS Start  *********************/
+.court_comments_section{
+    padding: 85px 0 120px 0;
+    text-align: center;
+}
+.court_comments_section .sub_title{
+    font-size: 28px;
+    font-family: Poppins-Medium;
+}
+.court_comments_section .sub_title{
+    margin: 40px 0 40px;
+}
+.court_comments_section .photo_btn{
+    margin-bottom: 100px;
+}
+.court_comments_section .map_btn{
+    margin-bottom: 75px;
+    margin-top: 30px;
+    padding: 16.5px 45px;
+}
+/*********************  Court Comments CSS End  *********************/
+
+/*********************  Local Weather CSS Start  *********************/
+.local_weather_inner_section{
+    padding: 120px 0 100px;
+    border-top: 1px solid #dddddd;
+}
+.local_weather_section .cage_title{
+    font-size: 40px;
+}
+.local_inner_sectiom ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.local_inner_sectiom ul li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 15px;
+}
+.local_inner_sectiom ul li img{
+    margin-right: 20px;
+}
+.local_inner_sectiom ul li .local_contain p{
+    font-family: Poppins-Regular;
+    font-size: 22px;
+    color: #181c1e;
+}
+.local_inner_sectiom ul li .local_contain span{
+    font-family: Poppins-Bold;
+    font-size: 24px;
+    color: #f76245;
+}
+/*********************  Local Weather CSS End  *********************/
+
+/*********************  Basketball near cage CSS End  *********************/
+.basketball_near_cage_section{
+    padding: 100px 0;
+    background-color: #f1f2f6;
+}
+.basketball_near_cage_section .sub_title{
+    font-size: 46px;
+}
+.rating_filter{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.rating_filter span{
+    font-family: Poppins-SemiBold;
+    font-size: 22px;
+    color: #181c1e;
+}
+.filter_select span{
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #7e7e7e;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.filter_select{
+    margin-left: 20px;
+}
+.nice-select{
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 105px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+.nice-select:active, .nice-select.open, .nice-select:focus{
+     border-color: #dbdbdb; 
+}
+.nice-select .list{
+    width: 100%;
+}
+.nice-select:after{
+    content: url(../image/select-arrow-ic.png);
+    border-bottom: none; 
+    border-right: none; 
+    display: block;
+    height: 0px; 
+    pointer-events: none;
+    position: absolute;
+    right: 25px;
+    top: 22%;
+    transform-origin: unset;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+     width: 5px;
+}
+.nice-select.open::after{
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transform-origin: unset;
+    transform: unset;
+    top: 22%;
+}
+.basketball_near_cage_section table, .fiba-equipment-table table{
+    border-spacing: 0 10px;
+    border-collapse: separate;
+}
+.basketball_near_cage_section .table td, .basketball_near_cage_section .table th, .fiba-equipment-table .table th,
+.fiba-equipment-table .table td {
+    border-top: none;
+}
+.basketball_near_cage_section .table thead th,
+.fiba-equipment-table .table thead th {
+    border-bottom: none;
+}
+.basketball_table_head tr th,
+.fiba-equipment-table tr th{
+    font-size: 22px;
+    font-family: Poppins-SemiBold;
+    color: #f66245;
+    white-space: nowrap;
+}
+.basketball_near_cage_section table tbody tr, .fiba-equipment-table table tbody tr{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+}
+.basketball_near_cage_section table tbody tr td, .fiba-equipment-table table tbody tr td {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    white-space: nowrap;
+}
+.fiba-equipment-table table tbody tr td.cm-white-space {
+    white-space: unset;
+}
+.basketball_near_cage_section table tr td{
+    color: #555555;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.basketball_data p{
+    font-family: Poppins-Bold;
+    color: #1b1b1b;
+    font-size: 18px;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+.baskeball_span{
+    color: #696969;
+    font-size: 16px;
+}
+.basketball_img_data img{
+    margin-right: 15px;
+    max-width: 30px;
+}
+.basketball_img_data_new img{
+    margin-right: 5px;
+    max-width: unset;
+}
+.basketball_near_cage_section .table_pad_left{
+    padding-left: 30px;
+}
+.load_more_section{
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.tissot_img{
+    margin-top: 100px;
+    display: inline-block;
+}
+.basketball_court_info .row .col-lg-3{
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+/*********************  Basketball near cage CSS End  ********************/
+
+/*********************  Popular Section CSS Start  ********************/
+.outdoor_page .popular-section{
+    padding: 100px 0;
+}
+.outdoor_page .popular-section .sub_title{
+    margin-bottom: 50px;
+}
+.load_more_section .search_btn{
+    text-transform: uppercase;
+}
+.outdoor_page .popular-section .load_more_section{
+    margin-top: 40px; 
+}
+/*********************  Popular Section CSS End  ********************/
+.lb-data .lb-number{
+    display: none !important;
+}
+.lightbox{
+    position: fixed;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+.lightbox_over{
+    overflow: hidden;
+}
+
+/*********************  Indoor Page Css Start  ********************/
+.indoor-page-wrapper .cage_title {
+    color: #171c1e;
+}
+.indoor-page-wrapper .cage_box {
+    padding: 45px 25px;
+}
+.indoor-page-wrapper .cage_box_title {
+    font-size: 22px;
+}
+.in_cage_inner_box .cage_box_title{
+    line-height: 1.5;
+}
+.in_cage_inner_box .count_view {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+.cag-slider-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.photo-by-label {
+    position: absolute;
+    bottom: -3px;
+    right: 0px;
+    font-size: 16px;
+    font-family: Poppins-Bold;
+    color: #204f84;
+    background-image:url('../image/cag-img-shdow.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    width: 100%;
+    height: 86px;
+    text-align: right;
+    padding: 47px 20px 0 0;
+
+}
+.in_basketball_court_info .row .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.in_basketball_court_info .basketball_title_new {
+    font-size: 30px;
+}
+.in_basketball_court_info .basketball_title {
+    font-size: 24px;
+}
+/*********************  Indoor Page Css End ********************/
+
+/*********************  FIBA Approved Page Css Start ********************/
+.fiba-page-wrapper .cage_title {
+    color: #dcc068;
+    position: relative;
+}
+.fiba-page-wrapper .cage_inner_section {
+    position: relative;
+}
+.fiba-venue-logo {
+    position: absolute;
+    right: 0;
+    top: -10px;
+}
+.fiba-venue-logo img {
+    max-width: 170px;
+}
+.fb_count_view p {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.fiba-page-wrapper .cage_box_btn {
+    background-color: #dcc068;
+    border: 1px solid #dcc068;
+    color: #000;
+    text-transform: uppercase;
+    min-height: 55px;
+}
+.fiba-page-wrapper .cage_box_btn:hover {
+    background-color: transparent;
+    color: #dcc068;
+}
+.ch_fb_count_view p{
+    font-size: 24px;
+}
+.co_fb_count_view p{
+    margin-top: 0;
+}
+.co_fb_count_view p:last-child, .fb_count_view p:last-child {
+    margin-bottom: 20px;
+}
+.fiba-page-wrapper .cage_slider  {
+    padding-bottom: 0;
+}
+.fiba-page-wrapper .cage_main_contain {
+    background-color: #e0e3ea;
+}
+.fiba-page-wrapper .court_comments_section {
+    background-color: #e0e3ea;
+    padding-top: 0;
+}
+.fiba-page-wrapper .court_comments_section .photo_btn {
+    margin-bottom: 0;
+}
+.fiba-page-wrapper .cage_title.fb-player-comments {
+    color: #171c1e;
+}
+.fiba-endorsed-equipment-wrapper {
+    padding:85px 0 100px;
+}
+.fiba-equipment-table table tbody tr td, .fiba-equipment-table tr th {
+    text-align: left;
+}
+.fiba-equipment-table tr th:nth-last-child(-n+2) {
+    width: 20%;
+}
+.fiba-equipment-table table tbody tr td p{
+    color: #181c1e;
+    font-size: 18px;
+}
+.multiple-value-df {
+    flex-wrap: wrap;
+    display: flex;
+}
+.multiple-value-df span {
+    width: 100%;
+}
+.multiple-value-df span + span{
+    margin-top: 15px;
+}
+.multiple-value-df a {
+    width: 100%;
+    color: #f76245;
+    text-decoration: underline;
+    display: inline-block;
+}
+.multiple-value-df a:hover {
+   color: #000;
+    text-decoration: underline;
+}
+.multiple-value-df a + a {
+    margin-top: 15px;
+}
+.fiba-equipment-table table tbody tr td:first-child {
+    border-radius: 6px 0 0px 6px;
+}
+.fiba-equipment-table table tbody tr td:last-child {
+    border-radius: 0 6px 6px 0;
+}
+.fiba-equipment-table .table_pad_left, .fiba-event-block .fiba-equipment-table tbody tr td:first-child  {
+    padding-left: 36px;
+}
+.fiba-equipment-block .fiba-equipment-table table tbody tr td:first-child p{
+    font-family: Poppins-Bold;
+}
+.fiba-equipment-table .table {
+    margin-bottom: 0;
+}
+.court_comments_section .fiba-equ-title .cage_title {
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+.fiba-event-block {
+    padding-bottom: 100px;
+}
+.fiba-event-block .fiba-equipment-table tr th:nth-last-child(-n+2) {
+    width: auto;
+}
+.fiba-event-block .fiba-equipment-table tr th:first-child {
+    width: 33%;
+}
+.court_comments_section .fiba-event-block .fiba-equ-title .cage_title {
+    margin-bottom: 15px;
+}
+.fiba-equipment-table {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.fancybox-slide--image {
+    padding: 44px 15px;
+}
+/*********************  FIBA Approved Page Css End ********************/
+
+
+/*Poppins-Bold*/
+/*Poppins-Regular*/
+/*Poppins-SemiBold*/
+/*Poppins-Medium;*/
